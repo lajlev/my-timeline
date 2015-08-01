@@ -274,7 +274,7 @@ body {
 
 a,
 a:visited {
-  color: #E67E22;
+  color: #3A1E0D;
   text-decoration: none;
 }
 
@@ -333,7 +333,7 @@ section p {
 }
 section .year {
   font-size: 13px;
-  color: #737373;
+  color: #715E52;
   margin-bottom: .35em;
 }
 section h3 {
@@ -344,7 +344,7 @@ section h3 {
   text-overflow: ellipsis;
 }
 section h3 span {
-  color: #737373;
+  color: #715E52;
   font-weight: 300;
   padding: 0 0 0 0.5em;
 }
@@ -353,7 +353,7 @@ section h3 span {
   font-size: .8em;
   margin: 2em 0;
   padding: .2em 0 .2em 1.5em;
-  border-left: 2px dashed #E67E22;
+  border-left: 2px dashed #C56D2A;
 }
 
 .timeline blockquote:last-child {
@@ -401,7 +401,7 @@ blockquote .name {
 }
 blockquote .title {
   font-weight: 300;
-  color: #737373;
+  color: #715E52;
 }
 
 .about p {
