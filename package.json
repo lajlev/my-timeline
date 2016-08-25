@@ -1,0 +1,21 @@
+{
+  "name": "my-timeline",
+  "version": "1.0.0",
+  "description": "Dev tool - Compile and live reload",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lajlev/my-timeline.git"
+  },
+  "author": "Michael Lajlev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lajlev/my-timeline/issues"
+  },
+  "homepage": "https://laj.lv",
+  "devDependencies": {
+    "browser-sync": "^2.14.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  }
+}

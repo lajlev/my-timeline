@@ -10,7 +10,6 @@ body {
   }
 }
 
-
 .wrapper {
   max-width: 580px;
   opacity: 0;
@@ -51,11 +50,6 @@ h2 {
   margin-bottom: 3em; }
 
 section {
-  &.about {
-    padding: 1.5em 2em;
-    margin-bottom: 2.5em;
-    background: rgba(255, 244, 234, 0.7);
-  }
 
   &:last-child {
     padding: 0 0 50px;
@@ -86,7 +80,7 @@ section {
 
   p {
     color: #1a1a1a;
-    
+
     @media (min-width: 440px) {
       color: #0a0a0a;
     }
@@ -100,19 +94,14 @@ section {
 }
 
 
-
-
-
-
-
-.timeline blockquote {
+.blocks blockquote {
   font-size: .8em;
   margin: 2em 0;
   padding: .2em 0 .2em 1.5em;
   border-left: 2px dashed #C56D2A;
 }
 
-.timeline blockquote:last-child {
+.blocks blockquote:last-child {
   margin-bottom: 0;
 }
 
@@ -127,20 +116,16 @@ blockquote p a {
 blockquote footer {
   margin-top: 1em;
 }
-.about blockquote footer {
-  font-size: 0.8em;
-}
+
 blockquote img {
   border-radius: 100%;
   float: left;
   margin-right: 1em;
 }
-.timeline blockquote img {
+.blocks blockquote img {
   width: 48px;
 }
-.about blockquote img {
-  width: 58px;
-}
+
 blockquote a {
   color: #404040;
 }
@@ -160,16 +145,8 @@ blockquote .title {
   color: #715E52;
 }
 
-.about {
-  p {
-    margin-bottom: 1em; }
-    
-  footer a {
-    text-align: left;
-  }
-} 
 
-.timeline li {
+.blocks li {
   padding: 1.5em 2em;
   margin-bottom: 2.5em;
   background: rgba(255, 244, 234, 0.7);
