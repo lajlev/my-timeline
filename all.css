@@ -239,7 +239,8 @@ body {
     line-height: 56px;
     max-width: 800px;
     margin: 1em auto 1em;
-    padding-bottom: 1.2em; }
+    padding-bottom: 1.2em;
+    text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3); }
     @media (max-width: 800px) {
       .intro h1 {
         font-size: 38px;
@@ -252,9 +253,10 @@ body {
     display: block;
     padding: .75em 0;
     margin: 0;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.75);
     font-style: italic;
-    font-weight: 700; }
+    font-weight: 700;
+    font-size: 20px; }
     @media (max-width: 600px) {
       .intro .name {
         background: rgba(0, 0, 0, 0.3);
@@ -265,9 +267,10 @@ body {
       font-style: normal;
       letter-spacing: 1px;
       text-transform: uppercase;
-      font-size: .6em;
+      font-size: 11px;
+      text-shadow: 0 1px 0 rgba(255, 255, 255, 0.08);
       margin: 10px;
-      color: rgba(0, 0, 0, 0.8); }
+      color: rgba(0, 0, 0, 0.7); }
       @media (max-width: 600px) {
         .intro .name .title {
           color: rgba(255, 255, 255, 0.5); } }
@@ -286,15 +289,15 @@ a:hover {
   .blocks li {
     margin: auto;
     display: block;
-    padding: 1.2em 1.5em;
+    padding: .8em 1em;
     margin-bottom: 40px;
-    background: rgba(255, 255, 255, 0.35);
+    background: rgba(255, 255, 255, 0.65);
     max-width: 560px;
-    border-radius: 2px;
-    box-shadow: 6px 6px 0 0 rgba(0, 0, 0, 0.35); }
-    @media (max-width: 440px) {
+    border-radius: 2px; }
+    @media (min-width: 440px) {
       .blocks li {
-        padding: .8em 1em; } }
+        padding: 1.2em 1.5em;
+        box-shadow: 6px 6px 0 0 rgba(0, 0, 0, 0.35); } }
   .blocks p,
   .blocks ul {
     margin: 0 auto;
@@ -327,7 +330,7 @@ blockquote {
     blockquote p {
       text-align: justify; } }
   blockquote img {
-    opacity: 0.8;
+    opacity: .9;
     border-radius: 100%;
     float: left;
     margin-right: 1em;
@@ -339,7 +342,7 @@ blockquote {
     padding-top: 5px; }
   blockquote .title {
     font-weight: 300;
-    color: #715E52; }
+    color: #53453d; }
   blockquote footer {
     font-weight: 700;
     margin-top: 1em; }
@@ -351,7 +354,7 @@ blockquote {
         display: block; }
 
 .footprint {
-  margin: 2em 0 3em; }
+  margin: 4em 0 3em; }
   .footprint ul {
     text-align: center; }
     .footprint ul li {
@@ -360,25 +363,17 @@ blockquote {
         .footprint ul li.hide-mobile {
           display: none; } }
       .footprint ul li a {
-        color: #351330;
+        color: white;
         display: inline-block;
-        font-size: 15px;
-        padding: .4em .6em;
-        margin: 0 .2em;
+        padding: .6em 1em;
+        margin: 0 .4em;
         border-radius: 3px;
-        border: 1px solid rgba(53, 19, 48, 0.7);
+        border: 1px solid rgba(255, 255, 255, 0.9);
         transition: border-color .25s linear, background .25s linear;
         -webkit-transition: border-color .25s linear, background .25s linear; }
         .footprint ul li a:hover {
           text-decoration: none;
-          border-color: none;
-          background: rgba(53, 19, 48, 0.7);
-          color: #fff; }
-        @media (max-width: 500px) {
-          .footprint ul li a {
-            border: none;
-            background: rgba(53, 19, 48, 0.7);
-            color: #fff; } }
+          background: rgba(0, 0, 0, 0.1); }
 
 @-webkit-keyframes fadein {
   from {
