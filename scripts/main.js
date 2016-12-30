@@ -3,12 +3,14 @@ $(function(){
   var pattern = t.generate( $('body').width(), $('body').height() )
   $('body').css('background-image', pattern.dataUrl)
 
+  // Load hidden testimonials
   $('.button--more-testimonials').click(function(e){
     $('.testimonials li').removeClass('hide');
     e.preventDefault();
     $(this).hide();
   });
 
+  // Boardgamegeek data
   $.getJSON(
     "http://c.laj.lv/parser/bgg_lajlev.php",
 
@@ -16,6 +18,63 @@ $(function(){
      $('.bgg-last-3-games').html("<a target='_blank' href='https://boardgamegeek.com/boardgame/" + data.play[0].item['@attributes'].objectid + "'>" + data.play[0].item['@attributes'].name + "</a>, <a target='_blank' href='https://boardgamegeek.com/boardgame/" + data.play[1].item['@attributes'].objectid + "'>" + data.play[1].item['@attributes'].name + "</a> & <a target='_blank' href='https://boardgamegeek.com/boardgame/" + data.play[2].item['@attributes'].objectid + "'>" + data.play[2].item['@attributes'].name + "</a>");
     }
   );
+
+  // IMDB ratings
+
+  $(document).ready(function(){
+
+  $.ajax({
+    url: 'https://api.apifier.com/v1/execs/xWm9tAS7HqbLJteig/results?simplified=1',
+    dataType: 'json',
+    success: function(data) {
+      var randomObject = data[Math.floor(Math.random() * data.length)];
+      var randomObjectId = randomObject.id;
+
+        $.ajax({
+          url: 'http://omdbapi.com/?i=tt'+ randomObjectId +'&apikey=8d6c247f',
+          dataType: 'json',
+          success: function(data) {
+            var imdbMyRating = randomObject.my_rating;
+            var imdbMyRatingWord;
+            var imdbTimeAgo = randomObject.date;
+            var imdbId = data.imdbID;
+            var imdbType = data.Type;
+            var imdbYear = data.Year;
+            var imdbPlot = data.Plot;
+            var imdbTitle = data.Title;
+            var currentDate = new Date();
+            var currentYear = currentDate.getFullYear();
+
+            if(imdbMyRating < 2) {
+              imdbMyRatingWord = "a crapy";
+            } else if(imdbMyRating < 5){
+              imdbMyRatingWord = "a sloopy";
+            } else if(imdbMyRating < 6){
+              imdbMyRatingWord = "a decent";
+            } else if(imdbMyRating < 7){
+              imdbMyRatingWord = "a pretty good";
+            } else if(imdbMyRating < 8){
+              imdbMyRatingWord = "a great";
+            } else if(imdbMyRating < 9){
+              imdbMyRatingWord = "an awesome";
+            } else {
+              imdbMyRatingWord = "a briliant";
+            }
+
+            // Improve copy if imdbTimeAgo don't contain time ago
+            if(!((imdbTimeAgo.substr(imdbTimeAgo.length - 3)) == "ago")) {
+              var imdbTimeYear = imdbTimeAgo.substr(imdbTimeAgo.length - 4);
+              var imdbTimeAgoYear = currentYear - imdbTimeYear;
+              imdbTimeAgo = imdbTimeAgoYear + ' years ago';
+            }
+            // Composed imdb string
+            $('.imdb-random-movie').html("a " +imdbType + " I watched "+imdbTimeAgo + ". It's called <a target='_blank' href='http://www.imdb.com/title/" + imdbId + "' title='I rated "+imdbTitle+" "+imdbMyRating+" out of 10.'>" + imdbTitle + "</a> " + imdbMyRatingWord + " " + imdbType + " from " + imdbYear + ". Basicly it's about: " + imdbPlot);
+          }
+        });
+    }
+  });
+
+});
 
 
 

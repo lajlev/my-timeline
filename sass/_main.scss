@@ -86,7 +86,7 @@ a:hover {
   p,
   ul {
     margin: 0 auto;
-    line-height: 1.6em;
+    line-height: 1.8em;
     color: #404040;
     text-align: left;
     font-weight: 300; }
@@ -205,6 +205,14 @@ blockquote {
 
 .hide {
   display: none !important;
+}
+
+.dotted {
+  border-bottom: 1px dotted rgba(0, 0, 0, .6);
+
+  &:hover {
+    cursor: help;
+  }
 }
 
 @-webkit-keyframes fadein {
