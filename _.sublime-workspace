@@ -1,0 +1,708 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"mj-",
+				"mj-text"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"navbar-",
+				"navbar-brand"
+			],
+			[
+				"boo",
+				"bootstrap-js"
+			],
+			[
+				"ma",
+				"max-width"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"ovy",
+				"ovy-h\toverflow-y: hidden;"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"over",
+				"overflow-x"
+			],
+			[
+				"listing",
+				"listingUrl"
+			],
+			[
+				"mw",
+				"min-width"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"swi",
+				"Set Syntax: Swig"
+			],
+			[
+				"set swi",
+				"Set Syntax: Swig"
+			],
+			[
+				"set",
+				"Set Syntax: MJML"
+			],
+			[
+				"set ht",
+				"Set Syntax: HTML (Tcl)"
+			],
+			[
+				"set hmt",
+				"Set Syntax: HTML"
+			],
+			[
+				"set html",
+				"Set Syntax: HTML"
+			],
+			[
+				"ftp",
+				"SFTP: Show Panel"
+			],
+			[
+				"sftp",
+				"SFTP: Show Panel"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"set css",
+				"Set Syntax: CSS"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"lin",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: List Packages"
+			],
+			[
+				"set md",
+				"Set Syntax: Markdown"
+			]
+		],
+		"width": 493.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/lajlev/Sites/boligportal/emails/src/savesearchinstantmail-dk.html",
+		"/Users/lajlev/Sites/boligportal/emails/src/savesearchdailymail2-dk.html",
+		"/Users/lajlev/Desktop/sketch-measure-master/HOW-TO.md",
+		"/Users/lajlev/Sites/boligportal/emails/src/premiumuserreciept-en.html",
+		"/Users/lajlev/Sites/boligportal/emails/src/premiumusersubscriptionreceipt-en.html",
+		"/Users/lajlev/Sites/boligportal/emails/src/premiumusersubscriptionreceipt-dk.html",
+		"/Users/lajlev/Sites/boligportal/emails/src/premiumuserreciept-dk.html",
+		"/Users/lajlev/Sites/boligportal/emails/Gulpfile.js",
+		"/Users/lajlev/Sites/boligportal/emails/src/munewmessagedigest-dk.html",
+		"/Users/lajlev/Sites/boligportal/emails/src/extends/_standard.html",
+		"/Users/lajlev/Sites/boligportal/emails/src/macros/_texts.html",
+		"/Users/lajlev/Sites/boligportal/emails/src/cancelproductsubscription-dk.html",
+		"/Users/lajlev/Sites/boligportal/emails/_.sublime-project",
+		"/Users/lajlev/Sites/boligportal/emails/src/premiumusercontinuesearch-dk.html",
+		"/Users/lajlev/Sites/boligportal/emails/src/premiumusersubscriptionnotpossible-dk.html",
+		"/Users/lajlev/Sites/boligportal/emails/src/prof-landlordhighlightreceipt-dk.html",
+		"/Users/lajlev/Sites/boligportal/emails/src/privateownerhighlightreceipt-dk.html",
+		"/Users/lajlev/Sites/oplevnorsminde/wordpress/wp-config.php",
+		"/Users/lajlev/Sites/boligportal/emails/src/privateownergoodbye-dk.html",
+		"/Users/lajlev/Sites/boligportal/emails/src/subscriptionrenewalfailed-dk.html",
+		"/Users/lajlev/Sites/boligportal/emails/src/privateowneradaprooved-dk.html",
+		"/Users/lajlev/Sites/boligportal/emails/src/premiumusercancelsubscriptiontechnicalreason-dk.html",
+		"/Users/lajlev/Sites/boligportal/emails/src/premiumusercancelsubscriptionotherreason-dk.html",
+		"/Users/lajlev/Sites/boligportal/emails/src/premiumuserexpirewarning-dk.html",
+		"/Users/lajlev/Sites/boligportal/emails/src/premiumuserwelcomemail-dk.html",
+		"/Users/lajlev/Sites/boligportal/emails/src/premiumusercontinuesearch-en.html",
+		"/Users/lajlev/Sites/boligportal/emails/src/premiumuserexpired-dk.html",
+		"/Users/lajlev/Sites/boligportal/emails/src/savesearchdailymail-dk.html",
+		"/Users/lajlev/Sites/boligportal/emails/src/premiumuseractivateprofile-dk.html",
+		"/Users/lajlev/Sites/boligportal/emails/src/ownedhousingmakememove-dk.html",
+		"/Users/lajlev/Sites/boligportal/emails/src/premiumusercancelsubscriptionfoundhome-dk.html",
+		"/Users/lajlev/Sites/boligportal/emails/src/resetpassword-dk.html",
+		"/Users/lajlev/Sites/boligportal/emails/src/resetpassword-en.html",
+		"/Users/lajlev/Sites/boligportal/emails/src/newpropertiesemailservice-dk.html",
+		"/Users/lajlev/Sites/boligportal/emails/src/newpropertiesemailservice-en.html",
+		"/Users/lajlev/Sites/boligportal/emails/src/includes/_promoteapp-en.html",
+		"/Users/lajlev/Sites/boligportal/emails/src/extends/_standard-en.html",
+		"/Users/lajlev/Sites/boligportal/emails/src/privateownerpassiveautorentedout-dk.html",
+		"/Users/lajlev/Sites/boligportal/emails/src/privateownerpassiveautoreserved-dk.html",
+		"/Users/lajlev/Sites/boligportal/emails/src/privateownerpassiveautorentedout-dk.html ",
+		"/Users/lajlev/Sites/boligportal/emails/src/privateownerpassivewarning-dk.html",
+		"/Users/lajlev/Sites/boligportal/emails/src/newmessage-dk.html",
+		"/Users/lajlev/Sites/boligportal/emails/src/rejectionmessage-dk.html",
+		"/Users/lajlev/Sites/boligportal/emails/dist/lixcampaign-dk.html",
+		"/Users/lajlev/Sites/boligportal/emails/src/prolandlordwelcome-dk.html",
+		"/Users/lajlev/Sites/boligportal/emails/dist/prolandlordwelcome-dk.html",
+		"/Users/lajlev/Desktop/test.html",
+		"/Users/lajlev/Sites/emails/src/extends/_standard.html",
+		"/Users/lajlev/Sites/emails/src/newbaseuserregistered-en.html",
+		"/Users/lajlev/Sites/emails/src/muconfirmcontactinformation-dk.html",
+		"/Users/lajlev/Sites/emails/src/macros/_texts.html",
+		"/Users/lajlev/Sites/emails/src/savesearchdailymail-dk.html",
+		"/Users/lajlev/Sites/emails/src/rejectionmessage-dk.html",
+		"/Users/lajlev/Sites/emails/dist/premiumuserwelcomemail-dk.html",
+		"/Users/lajlev/Sites/emails/src/ownedhousing-dk.html",
+		"/Users/lajlev/Sites/emails/src/premiumuserwelcomemail-dk.html",
+		"/Users/lajlev/Sites/emails/src/includes/_styles.html",
+		"/Users/lajlev/Sites/emails/src/savesearchinstantmail-dk.html",
+		"/Users/lajlev/Sites/emails/src/macros/_buttons.html",
+		"/Users/lajlev/Sites/emails/src/premiumuserwelcomeadvice-dk.html",
+		"/Users/lajlev/Sites/emails/dist/newbaseuserregistered-dk.html",
+		"/Users/lajlev/Sites/emails/src/usermessageform-dk.html",
+		"/Users/lajlev/Sites/emails/dist/usermessageform-dk.html",
+		"/Users/lajlev/Sites/emails/Gulpfile.js",
+		"/Users/lajlev/Sites/emails/src/newmessage-dk.html",
+		"/Users/lajlev/Sites/emails/dist/privateownerreceipt-dk.html",
+		"/Users/lajlev/Sites/emails/src/includes/_promoteapp-dk.html",
+		"/Users/lajlev/Sites/emails/dist/savesearchinstantmail-dk.html",
+		"/Users/lajlev/Sites/emails/src/privateownerreceipt-dk.html",
+		"/Users/lajlev/Sites/emails/src/prof-landlordhighlightreceipt-dk.html",
+		"/Users/lajlev/Sites/emails/src/privateownerwelcome-dk.html",
+		"/Users/lajlev/Sites/emails/src/macros/_images.html",
+		"/Users/lajlev/Sites/emails/dist/privateownerwelcome-dk.html",
+		"/Users/lajlev/Sites/emails/README.md",
+		"/Users/lajlev/Sites/emails/src/macros/_lists.html",
+		"/Users/lajlev/Sites/emails/src/newbaseuserregistered-dk.html",
+		"/Users/lajlev/Sites/emails/src/privateownerwelcome-dk",
+		"/Users/lajlev/Sites/design/emails/package.json",
+		"/Users/lajlev/Sites/design/emails/src/master.handlebars",
+		"/Users/lajlev/Sites/design/emails/mjml/master.mjml",
+		"/Users/lajlev/Sites/design/emails/gulpfile.js",
+		"/Users/lajlev/Sites/design/emails/src/partials/promoapp.handlebars",
+		"/Users/lajlev/Sites/design/emails/mjml/*.mjml",
+		"/Users/lajlev/Sites/design/emails/components/_master.html",
+		"/Users/lajlev/Sites/design/emails/playground.html",
+		"/Users/lajlev/Sites/design/_components/_master.html",
+		"/Users/lajlev/Sites/design/emails/savesearchinstantmail-dk.html",
+		"/Users/lajlev/Desktop/stylesheets-paymentwindow.css",
+		"/Users/lajlev/Library/Caches/Cleanup At Startup/Transmit/934994CA-C9ED-4DBB-ACA9-0B528AB13DBC/index.html",
+		"/Users/lajlev/Desktop/search.svg",
+		"/Users/lajlev/Desktop/Filbert.md",
+		"/Users/lajlev/Desktop/viborg-ejendom.md",
+		"/Users/lajlev/Sites/wp-themes/sloejt/sftp-config.json",
+		"/Users/lajlev/Sites/wp-themes/sloejt/template-parts/content.php",
+		"/Users/lajlev/Sites/wp-themes/sloejt/search.php",
+		"/Users/lajlev/Sites/wp-themes/sloejt/index.php",
+		"/Users/lajlev/Sites/wp-themes/sloejt/sass/layout/_content-sidebar.scss",
+		"/Users/lajlev/Sites/wp-themes/sloejt/.gitignore",
+		"/Users/lajlev/Sites/wp-themes/sloejt/footer.php",
+		"/Users/lajlev/Sites/wp-themes/sloejt/single.php",
+		"/Users/lajlev/Sites/wp-themes/sloejt/sass/style.scss",
+		"/Users/lajlev/Sites/wp-themes/sloejt/style.css",
+		"/Users/lajlev/Desktop/Phoenix Homes.md",
+		"/Users/lajlev/Sites/wp-themes/sloejt/package.json",
+		"/Users/lajlev/Sites/wp-themes/sloejt/gruntfile.js",
+		"/Users/lajlev/Sites/wp-themes/sloejt/template-parts/content-post.php",
+		"/Users/lajlev/Sites/wp-themes/sloejt/ftpsync.settings",
+		"/Users/lajlev/Sites/sssloejt/wordpress/wp-config.php",
+		"/Users/lajlev/Sites/tools/ftpsync/doc/ReadMe.txt",
+		"/Users/lajlev/Sites/frontend-prototypes/contract-builder/public/css/_variables.scss",
+		"/Users/lajlev/Sites/frontend-prototypes/contract-builder/public/js/main.js",
+		"/Users/lajlev/Sites/frontend-prototypes/contract-builder/public/views/tabs/_tab1.jade",
+		"/Users/lajlev/Sites/frontend-prototypes/contract-builder/public/css/_custom.scss",
+		"/Users/lajlev/.bash_profile",
+		"/Users/lajlev/Library/Caches/Cleanup At Startup/Transmit/77E29AF9-4778-46C2-AE3E-8018F6EFA210/index.html",
+		"/Users/lajlev/Desktop/Rodeskabet/bitbat plugins/spotify.10s.sh",
+		"/Users/lajlev/Library/Application Support/com.bohemiancoding.sketch3/Plugins/Sketch Data Populator.sketchplugin/Presets/demo/contacts/full-data-bw.json",
+		"/Users/lajlev/Library/Application Support/com.bohemiancoding.sketch3/Plugins/Sketch Data Populator.sketchplugin/Presets/demo/contacts/full-data copy.json",
+		"/Users/lajlev/Library/Application Support/com.bohemiancoding.sketch3/Plugins/Sketch Data Populator.sketchplugin/Presets/demo/contacts/full-data.json",
+		"/Users/lajlev/Library/Caches/Cleanup At Startup/Transmit/E950BDDA-8A47-483B-9A21-CA4E77482F56/gifalytics.html",
+		"/Users/lajlev/Sites/frontend-prototypes/.gitignore",
+		"/Users/lajlev/Sites/frontend-prototypes/contract-builder/README.md",
+		"/Users/lajlev/Sites/frontend-prototypes/contract-builder/public/views/tabs/_tab10.jade",
+		"/Users/lajlev/Sites/frontend-prototypes/contract-builder/public/views/tabs/_tab9.jade",
+		"/Users/lajlev/Sites/frontend-prototypes/contract-builder/public/index.jade",
+		"/Users/lajlev/Sites/frontend-prototypes/contract-builder/public/views/tabs/_tab8.jade",
+		"/Users/lajlev/Sites/frontend-prototypes/contract-builder/public/views/_wizard-buttons.jade",
+		"/Users/lajlev/Desktop/Full footer.html"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 109.0,
+		"where_history":
+		[
+			"",
+			"<current file>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"<td style=\"padding: 0 7px 0 0;\">[[monthlyPrice]] kr</td>\n                <td style=\"padding: 0 7px;\">[[sizeM2]] m²</td>\n                <td style=\"padding: 0 0 0 7px;\">[[city]]</td>",
+			"<mj-raw",
+			"{{raw",
+			"link",
+			"<divider />",
+			"[genIndrykId]",
+			"icon",
+			"forny",
+			"Tillykke, du har",
+			"Tillykkr, du har",
+			"<hr",
+			"{{",
+			"<mj-text>",
+			"width=\"64\" padding-bottom=\"30\"",
+			"padding-top=",
+			" width=\"64\"",
+			"}}",
+			"{{",
+			"{{bp_link",
+			"}}",
+			"{{",
+			"({{)|(}})",
+			"@",
+			".site",
+			"$size__site-main",
+			");\n",
+			"wp-completion.bash",
+			"ls",
+			"/Male/",
+			"/Female/",
+			"ignore",
+			"tilføj para",
+			"git",
+			"<img",
+			"el ",
+			"el",
+			"resize",
+			"$('#text__boligtype-andet').dependsOn({\n    'input[name=\"boligtype\"]': { values: ['andet'] }\n  });",
+			"inline",
+			"form-group--udgift-vand-fordeles",
+			"helpblock",
+			"help-block",
+			"helpblock",
+			"$('#text__adgang-andet').dependsOn({\n    'input[name=\"adgang\"]': { checked: true }\n  });",
+			"descr",
+			"()\n",
+			"@import \"bootstrap",
+			"ip",
+			"phone",
+			"icon",
+			"githu",
+			"line",
+			"marie",
+			"stine",
+			"$(function() {\n  console.log(\"works\");\n});",
+			"}",
+			"mal",
+			"henri",
+			"hanne",
+			"gra",
+			"ale",
+			"ma",
+			"se",
+			"di",
+			"dim",
+			"line",
+			"chr",
+			"kris",
+			"stine",
+			"anders",
+			"maja",
+			"line",
+			"ander",
+			"aut",
+			"animate",
+			"20px",
+			".preview-listings",
+			".listings__count",
+			"$('.filter--dropdown').removeClass('expanded');",
+			"tra",
+			"værelse",
+			"væreselse",
+			"$listingUrl",
+			"base64",
+			"png",
+			"$(\".filter--range input\").mousedown(function() {\n    $filterRangeEl.find('.range').addClass('active');\n  })",
+			"overflow:",
+			":after",
+			"();\n",
+			"preview",
+			"boliger",
+			"location",
+			",\n  lat: 56.16294,\n  lng: 10.20392",
+			".row",
+			"hover",
+			"\";\n",
+			"path",
+			"ftp",
+			"gitig",
+			"giti",
+			"tables",
+			"linkAssets",
+			"foundation",
+			"/*",
+			"export",
+			".rbenv/bin",
+			"eval",
+			"path",
+			"apa",
+			"apache",
+			"virtu"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<mj-text padding-bottom=\"30\">",
+			"width=\"64\"",
+			"padding-bottom=",
+			" width=\"64\" padding-top=\"30\"",
+			"  width=\"64\" padding-top=\"30\"",
+			"]]",
+			"[[",
+			"]]",
+			"[[",
+			"[[ ",
+			"$1[[$2]]",
+			"/[[|]]/",
+			"/([[)|(]])/",
+			"/Male-bw/",
+			"/Female-bw/",
+			"@import \"../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap",
+			"listingUrl"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 116.0
+	},
+	"pinned_build_system": "",
+	"project": "_.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"premuserre",
+				"src/premiumuserreciept-dk.html"
+			],
+			[
+				"premrec",
+				"src/premiumusersubscriptionreceipt-dk.html"
+			],
+			[
+				"pro",
+				"src/prof-landlordhighlightreceipt-dk.html"
+			],
+			[
+				"subscriptionrenewalfailed-dk",
+				"src/subscriptionrenewalfailed-dk.html"
+			],
+			[
+				"preuse",
+				"src/premiumuserreciept-dk.html"
+			],
+			[
+				"preex",
+				"src/premiumuserexpirewarning-dk.html"
+			],
+			[
+				"save",
+				"src/savesearchinstantmail-dk.html"
+			],
+			[
+				"sav",
+				"src/savesearchdailymail-dk.html"
+			],
+			[
+				"premiumuseractivateprofile-dk",
+				"src/premiumuseractivateprofile-dk.html"
+			],
+			[
+				"active",
+				"src/premiumuseractivateprofile-dk.html"
+			],
+			[
+				"rese",
+				"src/resetpassword-en.html"
+			],
+			[
+				"tech",
+				"src/premiumusercancelsubscriptiontechnicalreason-dk.html"
+			],
+			[
+				"premfoun",
+				"src/premiumusercancelsubscriptionfoundhome-dk.html"
+			],
+			[
+				"premiumother",
+				"src/premiumusercancelsubscriptionotherreason-dk.html"
+			],
+			[
+				"premiumuser",
+				"src/premiumusercontinuesearch-dk.html"
+			],
+			[
+				"prem",
+				"src/premiumuserreciept-dk.html"
+			],
+			[
+				"newpro",
+				"src/newpropertiesemailservice-dk.html"
+			],
+			[
+				"ind",
+				"public/index.jade"
+			],
+			[
+				"cu",
+				"public/css/_custom.scss"
+			],
+			[
+				"cus",
+				"public/css/_custom.scss"
+			],
+			[
+				"tab5",
+				"public/views/tabs/_tab5.jade"
+			],
+			[
+				"var",
+				"public/css/_variables.scss"
+			],
+			[
+				"all",
+				"public/javascripts/all.js"
+			],
+			[
+				"map",
+				"public/styles/_map.less"
+			],
+			[
+				"filter",
+				"public/styles/_filters.less"
+			],
+			[
+				"list",
+				"public/partials/_listing.jade"
+			],
+			[
+				"listin",
+				"public/styles/_listings.less"
+			],
+			[
+				"res",
+				"public/styles/_reset.less"
+			],
+			[
+				"rep",
+				"public/styles/_preview-google-map.less"
+			],
+			[
+				"pre",
+				"public/partials/_preview-google-map.jade"
+			],
+			[
+				"da",
+				"public/_data.json"
+			],
+			[
+				"mapjs",
+				"public/javascripts/googlemap.js"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"lay",
+				"public/_layout.jade"
+			],
+			[
+				"top",
+				"public/styles/_topbar.less"
+			],
+			[
+				"goo",
+				"public/javascripts/googlemap.js"
+			],
+			[
+				"lis",
+				"public/styles/_listings.less"
+			],
+			[
+				"fil",
+				"public/styles/_filters.less"
+			],
+			[
+				"filt",
+				"public/styles/_filters.less"
+			],
+			[
+				"silverpujsad.",
+				"silverpuppy/js/app/models/ad.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 206.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

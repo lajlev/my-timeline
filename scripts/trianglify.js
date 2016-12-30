@@ -154,4 +154,4 @@ Trianglify.Pattern.prototype.append = function() {
 };
 
 //colorbrewer palettes from http://bl.ocks.org/mbostock/5577023
-Trianglify.colors = ["#351330","#424254","#64908A", "#E8CAA4", "#CC2A41"];
+Trianglify.colors = ["#351330","#424254","#64908A", "#424254", "#351330"];

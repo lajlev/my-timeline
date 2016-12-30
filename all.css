@@ -231,16 +231,18 @@ body {
 
 .intro {
   text-align: center;
-  color: rgba(255, 255, 255, 0.75); }
+  color: rgba(255, 255, 255, 0.9); }
   .intro h1 {
     font-weight: 800;
     letter-spacing: 1px;
     font-size: 48px;
     line-height: 56px;
     max-width: 800px;
-    margin: 1em auto 1em;
-    padding-bottom: 1.2em;
+    margin: 2em auto 0;
+    padding-bottom: 0;
     text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3); }
+    .intro h1 .no-shadow {
+      text-shadow: none; }
     @media (max-width: 800px) {
       .intro h1 {
         font-size: 38px;
@@ -249,31 +251,6 @@ body {
       .intro h1 {
         font-size: 28px;
         line-height: 36px; } }
-  .intro .name {
-    display: block;
-    padding: .75em 0;
-    margin: 0;
-    color: rgba(255, 255, 255, 0.75);
-    font-style: italic;
-    font-weight: 700;
-    font-size: 20px; }
-    @media (max-width: 600px) {
-      .intro .name {
-        background: rgba(0, 0, 0, 0.3);
-        padding: .3em 0;
-        position: relative;
-        top: -25px; } }
-    .intro .name .title {
-      font-style: normal;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      font-size: 11px;
-      text-shadow: 0 1px 0 rgba(255, 255, 255, 0.08);
-      margin: 10px;
-      color: rgba(0, 0, 0, 0.7); }
-      @media (max-width: 600px) {
-        .intro .name .title {
-          color: rgba(255, 255, 255, 0.5); } }
 
 a,
 a:visited {
@@ -285,13 +262,13 @@ a:hover {
 
 .blocks {
   width: 92%;
-  margin: 0 auto; }
+  margin: 6em auto 3em; }
   .blocks li {
     margin: auto;
     display: block;
     padding: .8em 1em;
     margin-bottom: 40px;
-    background: rgba(255, 255, 255, 0.65);
+    background: rgba(255, 255, 255, 0.85);
     max-width: 560px;
     border-radius: 2px; }
     @media (min-width: 440px) {
@@ -311,11 +288,18 @@ a:hover {
       .blocks p {
         color: #0a0a0a; } }
   .blocks strong {
+    font-style: italic;
     font-weight: 700;
     color: #424254; }
 
 blockquote {
   font-size: .85em; }
+  blockquote small {
+    display: block;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-size: 11px;
+    text-align: right; }
   blockquote:last-child {
     margin-bottom: 0; }
   blockquote p a {
@@ -337,15 +321,19 @@ blockquote {
     width: 48px; }
   blockquote .name {
     font-weight: 700;
-    font-style: italic;
-    color: #351330;
-    padding-top: 5px; }
+    font-size: 13px;
+    color: #424254;
+    padding-top: 8px; }
+    blockquote .name:hover {
+      color: #2c2c37;
+      text-decoration: underline; }
   blockquote .title {
     font-weight: 300;
-    color: #53453d; }
+    font-size: 13px;
+    color: rgba(66, 66, 84, 0.8); }
   blockquote footer {
     font-weight: 700;
-    margin-top: 1em; }
+    margin-top: 1.7em; }
     blockquote footer a {
       display: block; }
       blockquote footer a:hover {
@@ -353,27 +341,23 @@ blockquote {
       blockquote footer a span {
         display: block; }
 
-.footprint {
-  margin: 4em 0 3em; }
-  .footprint ul {
-    text-align: center; }
-    .footprint ul li {
-      display: inline-block; }
-      @media (max-width: 450px) {
-        .footprint ul li.hide-mobile {
-          display: none; } }
-      .footprint ul li a {
-        color: white;
-        display: inline-block;
-        padding: .6em 1em;
-        margin: 0 .4em;
-        border-radius: 3px;
-        border: 1px solid rgba(255, 255, 255, 0.9);
-        transition: border-color .25s linear, background .25s linear;
-        -webkit-transition: border-color .25s linear, background .25s linear; }
-        .footprint ul li a:hover {
-          text-decoration: none;
-          background: rgba(0, 0, 0, 0.1); }
+.button {
+  display: block;
+  max-width: 320px;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 1.3em 2em;
+  border-radius: 3px;
+  margin: 0 auto 2em;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 1px; }
+  .button:hover {
+    text-decoration: none;
+    background: rgba(53, 19, 48, 0.15); }
+
+.hide {
+  display: none !important; }
 
 @-webkit-keyframes fadein {
   from {
