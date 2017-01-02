@@ -44,7 +44,7 @@ $(function(){
             var imdbTitle = data.Title;
             var currentDate = new Date();
             var currentYear = currentDate.getFullYear();
-
+            // Word rating
             if(imdbMyRating < 2) {
               imdbMyRatingWord = "a crapy";
             } else if(imdbMyRating < 5){
@@ -59,6 +59,10 @@ $(function(){
               imdbMyRatingWord = "an awesome";
             } else {
               imdbMyRatingWord = "a briliant";
+            }
+
+            if(imdbType == "series") {
+              imdbType = "TV serie";
             }
 
             // Improve copy if imdbTimeAgo don't contain time ago
