@@ -15,7 +15,7 @@ $(function(){
     "http://c.laj.lv/parser/bgg_lajlev.php",
 
     function(data) {
-     $('.bgg-last-3-games').html("<a target='_blank' href='https://boardgamegeek.com/boardgame/" + data.play[0].item['@attributes'].objectid + "'>" + data.play[0].item['@attributes'].name + "</a>, <a target='_blank' href='https://boardgamegeek.com/boardgame/" + data.play[1].item['@attributes'].objectid + "'>" + data.play[1].item['@attributes'].name + "</a> & <a target='_blank' href='https://boardgamegeek.com/boardgame/" + data.play[2].item['@attributes'].objectid + "'>" + data.play[2].item['@attributes'].name + "</a>");
+     $('.bgg-last-3-games').removeClass('ajax-spinner').html("<a target='_blank' href='https://boardgamegeek.com/boardgame/" + data.play[0].item['@attributes'].objectid + "'>" + data.play[0].item['@attributes'].name + "</a>, <a target='_blank' href='https://boardgamegeek.com/boardgame/" + data.play[1].item['@attributes'].objectid + "'>" + data.play[1].item['@attributes'].name + "</a> & <a target='_blank' href='https://boardgamegeek.com/boardgame/" + data.play[2].item['@attributes'].objectid + "'>" + data.play[2].item['@attributes'].name + "</a>.");
     }
   );
 
@@ -31,6 +31,7 @@ $(function(){
         url: 'http://omdbapi.com/?i=tt'+ randomObjectId +'&apikey=8d6c247f',
         dataType: 'json',
         success: function(data) {
+
           var imdbMyRating = randomObject.my_rating;
           var imdbMyRatingWord;
           var imdbTimeAgo = randomObject.date;
@@ -69,7 +70,7 @@ $(function(){
             imdbTimeAgo = imdbTimeAgoYear + ' years ago';
           }
           // Composed imdb string
-          $('.imdb-random-movie').html("a " +imdbType + " I watched "+imdbTimeAgo + ". It's called <a target='_blank' href='http://www.imdb.com/title/" + imdbId + "' title='I rated "+imdbTitle+" "+imdbMyRating+" out of 10.'>" + imdbTitle + "</a> " + imdbMyRatingWord + " " + imdbType + " from " + imdbYear + ". Basicly it's about: " + imdbPlot);
+          $('.imdb-random-movie').removeClass('ajax-spinner').html("a " +imdbType + " I watched "+imdbTimeAgo + ". It's called <a target='_blank' href='http://www.imdb.com/title/" + imdbId + "' title='I rated "+imdbTitle+" "+imdbMyRating+" out of 10.'>" + imdbTitle + "</a> " + imdbMyRatingWord + " " + imdbType + " from " + imdbYear + ". Basicly it's about: " + imdbPlot);
         }
       });
     } // Success
@@ -89,7 +90,7 @@ $(function(){
     success : function(data) {
       //console.log(data);
       var artist = data.topartists.artist;
-      $('.lastfm-top3-month').html("<a href='"+artist[0].url+"'>" + artist[0].name + "</a>, <a href='"+artist[1].url+"'>" + artist[1].name + "</a> & <a href='"+artist[2].url+"'>" + artist[2].name + "</a>,"  );
+      $('.lastfm-top3-month').removeClass('ajax-spinner').html("<a href='"+artist[0].url+"'>" + artist[0].name + "</a>, <a href='"+artist[1].url+"'>" + artist[1].name + "</a> & <a href='"+artist[2].url+"'>" + artist[2].name + "</a>,"  );
     }, // Success
     error : function(code, message){
       console.log("error");

@@ -374,6 +374,14 @@ img.profile {
   margin: 1em auto 3em;
   box-shadow: 6px 6px 0 0 rgba(0, 0, 0, 0.35); }
 
+.ajax-spinner:after {
+  content: "";
+  display: inline-block;
+  background-image: url("/img/ajax-loader.gif");
+  margin-left: 5px;
+  height: 11px;
+  width: 16px; }
+
 @-webkit-keyframes fadein {
   from {
     opacity: 0; }
