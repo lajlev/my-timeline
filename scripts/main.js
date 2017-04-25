@@ -21,7 +21,7 @@ $(function(){
 
   // IMDB ratings
   $.ajax({
-    url: 'https://api.apifier.com/v1/execs/xWm9tAS7HqbLJteig/results?simplified=1',
+    url: 'https://api.apifier.com/v1/execs/JGKtw2KAiov4LuQip/results?simplified=1',
     dataType: 'json',
     success: function(data) {
       var randomObject = data[Math.floor(Math.random() * data.length)];
